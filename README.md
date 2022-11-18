@@ -1,4 +1,4 @@
-# Shortcuts #
+# Shortcuts overlay #
 
 **Shortcuts overlay** is a _GNOME Shell_ extension that displays shortcut descriptions from a configurable
 _JSON_ file when <kbd>**Super**</kbd> + <kbd>**S**</kbd> is pressed. The default keyboard shortcuts are listed
