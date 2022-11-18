@@ -1,6 +1,25 @@
 // GNOME typedefs
 
 /**
+ * @typedef Gdk.Event.get_keyval
+ * @type {function}
+ * @returns {[boolean, number]}
+ */
+
+/**
+ * @typedef Gdk.Event
+ * @type {Object}
+ * @property {number} keyval
+ * @property {Gdk.Event.get_keyval} get_keyval
+ */
+
+/**
+ * @typedef Gdk
+ * @type {Object}
+ * @property {Gdk.Event} Event
+ */
+
+/**
  * @typedef native
  * @type {Object}
  * @property {function} get_file
@@ -41,6 +60,8 @@
  * @property {Overlay|function(new:Overlay)} imports.modules.overlay.Overlay
  * @property {Object} imports.modules.shortcuts
  * @property {Shortcuts|function(new:Shortcuts)} imports.modules.shortcuts.Shortcuts
+ * @property {Object} imports.modules.logger
+ * @property {Logger|function(new:Logger)} imports.modules.logger.Logger
  */
 
 /**
