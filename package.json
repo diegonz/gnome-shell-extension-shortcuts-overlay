@@ -1,0 +1,34 @@
+{
+  "name": "gnome-shell-extension-shortcuts-overlay",
+  "version": "1.0.0",
+  "description": "Show an overlay of keyboard shortcuts",
+  "main": "src/extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay.git"
+  },
+  "keywords": [
+    "gjs",
+    "gnome",
+    "gnome-shell",
+    "extension",
+    "gnome-shell-extension",
+    "overlay",
+    "shortcut"
+  ],
+  "author": "Diego González Álvarez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay/issues"
+  },
+  "homepage": "https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-plugin-jsdoc": "^39.6.2"
+  },
+  "dependencies": {
+  }
+}
