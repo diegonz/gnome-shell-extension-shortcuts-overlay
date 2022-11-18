@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Window Navigation",
+    "shortcuts": [
+      {
+        "name": "Alt + Tab",
+        "description": "Switches between windows"
+      },
+      {
+        "name": "Super",
+        "description": "Enter overview"
+      },
+      {
+        "name": "Super + Left/Right",
+        "description": "Tile windows to the left or right"
+      },
+      {
+        "name": "Super + Up",
+        "description": "Maximize window"
+      },
+      {
+        "name": "Alt + F4",
+        "description": "Close window"
+      },
+      {
+        "name": "Super + Mouse Drag",
+        "description": "Move window"
+      },
+      {
+        "name": "F11",
+        "description": "Make full screen/restore"
+      },
+      {
+        "name": "Super + H",
+        "description": "Minimize window"
+      },
+      {
+        "name": "Super + Page Down",
+        "description": "Switch to next workspace"
+      },
+      {
+        "name": "Super + Page Up",
+        "description": "Switch to previous workspace"
+      },
+      {
+        "name": "Super + Home",
+        "description": "Switch to first workspace"
+      },
+      {
+        "name": "Super + End",
+        "description": "Switch to last workspace"
+      },
+      {
+        "name": "Super + Tab",
+        "description": "Switch to next application"
+      }
+    ]
+  },
+  {
+    "name": "Run and Close Applications",
+    "shortcuts": [
+      {
+        "name": "Alt + F2",
+        "description": "Run dialog"
+      },
+      {
+        "name": "Super + 1,2,3,...",
+        "description": "Run app by position in the launcher"
+      },
+      {
+        "name": "Super + T",
+        "description": "Open terminal"
+      },
+      {
+        "name": "Super + Q",
+        "description": "Quit application"
+      }
+    ]
+  },
+  {
+    "name": "System Shortcuts",
+    "shortcuts": [
+      {
+        "name": "Super + Space",
+        "description": "Switch keyboard layout"
+      },
+      {
+        "name": "Ctrl + Alt + Del",
+        "description": "Opens the shutdown menu"
+      },
+      {
+        "name": "Super + L",
+        "description": "Locks the screen"
+      },
+      {
+        "name": "Alt + F2, r",
+        "description": "Restart GNOME Shell"
+      },
+      {
+        "name": "Alt + Super + 8",
+        "description": "Toggle zoom"
+      },
+      {
+        "name": "Alt + Super + S",
+        "description": "Toggle screen reader"
+      }
+    ]
+  },
+  {
+    "name": "Application Shortcuts",
+    "shortcuts": [
+      {
+        "name": "Ctrl + W",
+        "description": "Close tab in tab enabled apps"
+      },
+      {
+        "name": "Ctrl + T",
+        "description": "Opens new tab in tab enabled apps"
+      },
+      {
+        "name": "Ctrl + Shift + T",
+        "description": "Reopen last closed tab in web browser"
+      },
+      {
+        "name": "F5",
+        "description": "Evince (document viewer) presentation mode)"
+      },
+      {
+        "name": "F9",
+        "description": "LibreOffice presentation mode"
+      }
+    ]
+  },
+  {
+    "name": "Screenshot Shortcuts",
+    "shortcuts": [
+      {
+        "name": "Alt + PrintScreen",
+        "description": "Take a screenshot"
+      },
+      {
+        "name": "Shift + PrintScreen",
+        "description": "Take a screenshot of a region"
+      },
+      {
+        "name": "Ctrl + PrintScreen",
+        "description": "Take a screenshot and paste in a clipboard"
+      },
+      {
+        "name": "Ctrl + Alt + Shift + R",
+        "description": "Video capture desktop"
+      }
+    ]
+  }
+]

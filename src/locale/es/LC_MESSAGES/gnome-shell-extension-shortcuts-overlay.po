@@ -1,0 +1,109 @@
+# Shortcuts overlay: Show a pop-up overlay of useful keyboard shortcuts when Super + S is pressed.
+# Copyright (C) 2022 Diego González
+# This file is distributed under the same license as the shortcuts-overlay@diegonz.github.io package.
+# Diego González <dgonzalez.bz@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts-overlay@diegonz.github.io  1\n"
+"Report-Msgid-Bugs-To: dgonzalez.bz@gmail.com\n"
+"POT-Creation-Date: 2022-11-13 02:55+0100\n"
+"PO-Revision-Date: 2022-11-13 13:47+0100\n"
+"Last-Translator: Diego González <diegonz@github.io>\n"
+"Language-Team: Diego González <dgonzalez.bz@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.1\n"
+
+#: src/extension.js:88
+msgid "The super key is the Windows key on most keyboards"
+msgstr "La tecla super es la tecla Windows en la mayoría de los teclados"
+
+#: src/extension.js:138
+#, javascript-format
+msgid "Shortcuts file not found: '%s'"
+msgstr "Archivo de atajos de teclado no encontrado: '%s'"
+
+#: src/extension.js:146
+#, javascript-format
+msgid "Unable to read file: '%s'"
+msgstr "Imposible leer el archivo: '%s'"
+
+#: src/preferences.ui:7 src/preferences.ui:11 src/prefs.js:53
+msgid "Custom Shortcuts File"
+msgstr "Archivo de atajos de teclado personalizados"
+
+#: src/preferences.ui:20 src/preferences.ui:48 src/prefs.js:57 src/prefs.js:113
+msgid "Select shortcut file"
+msgstr "Seleccionar archivo de atajos de teclado"
+
+#: src/preferences.ui:26 src/preferences.ui:30 src/prefs.js:65
+msgid "Show tray icon"
+msgstr "Mostrar el icono de la bandeja"
+
+#: src/preferences.ui:37 src/preferences.ui:41
+msgid "Use transparency"
+msgstr "Usar transparencia"
+
+#: src/prefs.js:94
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#: src/prefs.js:94
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:26
+msgid "Visibility in percent"
+msgstr "Visibilidad en porcentaje"
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:6
+msgid "Use an alternative file for shortcut descriptions"
+msgstr ""
+"Utilice un archivo alternativo para las descripciones de los atajos de "
+"teclado"
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:7
+msgid ""
+"If true the shortcut file specified as shortcuts-file will be used for "
+"custom shortcuts."
+msgstr ""
+"Si es verdadero el archivo de atajos de teclado especificado se utilizará "
+"para atajos de teclado personalizados."
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:11
+msgid "Alternative file for shortcut descriptions"
+msgstr "Archivo alternativo para descripciones de atajos de teclado"
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:12
+msgid ""
+"If not empty it points to the shortcut file that will be read for the "
+"shortcut descriptions."
+msgstr ""
+"Si no está vacío apunta al archivo de acceso directo que se leerá para las "
+"descripciones de acceso directo."
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:16
+msgid "Toggles the icon on the top panel"
+msgstr "Alterna el icono en el panel superior"
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:17
+msgid ""
+"If true an icon to activate the extension will be visible on the top panel."
+msgstr ""
+"Si es verdadero un icono para activar la extensión estará visible en el "
+"panel superior."
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:21
+msgid "Toggles the transparency on the shortcuts dialog"
+msgstr "Alterna la transparencia en el cuadro de diálogo de atajos de teclado"
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:22
+msgid "If true transparency will be applied to the shortcuts dialog."
+msgstr ""
+"Si es verdadero se aplicará verdadera transparencia al cuadro de diálogo de "
+"atajos de teclado."
+
+#: src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:27
+msgid "Visibility - values between 0 and 100 are allowed (0 invisible)"
+msgstr "Visibilidad - se permiten valores entre 0 y 100 (0 invisible)"

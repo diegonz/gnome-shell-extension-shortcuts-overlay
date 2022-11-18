@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: MIT OR LGPL-2.0-or-later -->
+<!-- SPDX-FileCopyrightText: 2022 Diego González -->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <foaf:Person nodeID="diegonz">
+    <foaf:name>Diego González</foaf:name>
+    <foaf:mbox rdf:resource="mailto:diegonz@github.io"/>
+    <foaf:nick>diegonz</foaf:nick>
+  </foaf:Person>
+
+  <Project>
+
+    <name>Shortcuts overlay</name>
+    <shortname>Shortcuts overlay</shortname>
+    <category rdf:resource="http://api.gnome.org/doap-extensions#core"/>
+
+    <shortdesc xml:lang="en">Show an overlay of keyboard shortcuts</shortdesc>
+
+    <description xml:lang="en">Show a pop-up overlay of useful keyboard shortcuts when Super + S is pressed</description>
+
+    <homepage rdf:resource="https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay"/>
+    <bug-database rdf:resource="https://github.com/diegonz/gnome-shell-extension-surf/issues"/>
+    <download-page rdf:resource="https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay"/>
+
+    <repository>
+      <GitRepository>
+        <anon-root>:pserver:anonymous@cvs.ilrt.org:2401/cvsroot</anon-root>
+        <module>redland</module>
+        <browse rdf:resource="https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay" />
+      </GitRepository>
+    </repository>
+
+    <programming-language>Javascript</programming-language>
+    <os>GNU/Linux</os>
+    <platform xml:lang="en">GNOME Shell</platform>
+    <audience xml:lang="en">GNOME Shell users</audience>
+    <language>en</language>
+    <language>es</language>
+    <developer rdf:nodeID="diegonz"/>
+    <maintainer rdf:nodeID="diegonz"/>
+    <documenter rdf:nodeID="diegonz"/>
+    <translator rdf:nodeID="diegonz"/>
+
+
+    <license rdf:resource="https://spdx.org/licenses/LGPL-2.0+.html"/>
+    <license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+
+  </Project>
+
+</rdf:RDF>
