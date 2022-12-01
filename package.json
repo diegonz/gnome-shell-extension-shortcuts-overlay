@@ -4,7 +4,9 @@
   "description": "Show an overlay of keyboard shortcuts",
   "main": "src/extension.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "make": "make",
+    "make-all": "make all",
+    "make-local-install": "make local_install"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,11 @@
   },
   "homepage": "https://github.com/diegonz/gnome-shell-extension-shortcuts-overlay#readme",
   "devDependencies": {
+    "typescript": "^4.9.3",
     "eslint": "^8.27.0",
-    "eslint-plugin-jsdoc": "^39.6.2"
-  },
-  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint-plugin-jsdoc": "^39.6.2",
+    "gnome-typescript-types": "github:diegonz/gnome-typescript-types"
   }
 }

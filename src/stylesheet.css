@@ -1,45 +1,59 @@
 .background {
+  font-size: 16px; /* 1rem */
   color: #ffffff;
-  background-color: rgba(10, 10, 10, 0.7);
-  border-radius: 10px;
+  background-color: rgba(10, 10, 10, 0.85);
+  border-radius: 0.5em;
 }
 
+.background,
+.wrapper,
 .inner-boxlayout {
-  padding: 0 1.5em 1.5em;
+  padding: 0.5em 0.5em;
 }
 
-.group {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: 36px;
-  font-weight: bold;
+.group_name {
+  padding: 0.3em 0;
+  font-size: 1.8em;
+  font-weight: bolder;
 }
 
 .shortcut {
-  font-size: 15px;
-}
-
-.keys {
-  width: 150px;
-}
-
-.keys,
-.description {
   font-size: 1rem;
-  line-height: 0.9rem;
+}
+
+.keys-boxlayout {
+  width: 15em;
+}
+
+.keys-boxlayout,
+.description-boxlayout {
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+
+.kbd,
+.plus,
+.comma,
+.right_arrow,
+.description {
+  padding: 0.3em;
+  vertical-align: middle;
+}
+
+.kbd,
+.plus,
+.comma,
+.right_arrow {
+  font-weight: bold;
 }
 
 .kbd {
   display: inline-block;
-  padding: 2px 4px;
-  /*font: 11px JetBrains Mono,Menlo,Ubuntu Mono,Consolas,Liberation Mono,monospace;*/
-  font-family: JetBrains Mono,Menlo,Ubuntu Mono,Consolas,Liberation Mono,monospace;
-  font-weight: bold;
-  /*line-height: 10px;*/
+  font-family: JetBrains Mono, Menlo, Ubuntu Mono, Consolas, Liberation Mono, monospace;
+  font-weight: bolder;
   color: #24292f;
-  vertical-align: middle;
   background-color: #f6f8fa;
-  border: 1px solid #afb8c133;
-  border-radius: 6px;
-  box-shadow: inset 0 -1px 0 #afb8c133;
+  border: 0.1em solid #afb8c133;
+  border-radius: 0.5em;
+  box-shadow: inset 0 -0.1em 0 #afb8c133;
 }

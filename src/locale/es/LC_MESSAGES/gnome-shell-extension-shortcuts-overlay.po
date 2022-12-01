@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.1\n"
 
-#: src/extension.js:88
+#: src/AbstractExtension.js:88
 msgid "The super key is the Windows key on most keyboards"
 msgstr "La tecla super es la tecla Windows en la mayoría de los teclados"
 
-#: src/extension.js:138
+#: src/AbstractExtension.js:138
 #, javascript-format
 msgid "Shortcuts file not found: '%s'"
 msgstr "Archivo de atajos de teclado no encontrado: '%s'"
 
-#: src/extension.js:146
+#: src/AbstractExtension.js:146
 #, javascript-format
 msgid "Unable to read file: '%s'"
 msgstr "Imposible leer el archivo: '%s'"

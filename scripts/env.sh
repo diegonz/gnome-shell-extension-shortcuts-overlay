@@ -7,6 +7,9 @@ if [ "$UID" = "0" ]; then
   exit 101
 fi
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+PROJECT_ROOT="${SCRIPT_DIR}"/../
+
 AUTHOR="Diego González"
 AUTHOR_EMAIL="diegonz@github.io"
 AUTHOR_TEXT="${AUTHOR} <${AUTHOR_EMAIL}>"
@@ -14,12 +17,13 @@ AUTHOR_TEXT="${AUTHOR} <${AUTHOR_EMAIL}>"
 CURRENT_DATE=$(date +"%Y-%m-%d %H:%M:%S%z")
 CURRENT_YEAR=$(date +"%Y")
 
-DEV_FOLDER="${PWD}"
+DEV_FOLDER="${PROJECT_ROOT}"
 SRC_FOLDER="${DEV_FOLDER}/src"
 LOCALE_FOLDER="${SRC_FOLDER}/locale"
 SCHEMAS_FOLDER="${SRC_FOLDER}/schemas"
-BUILD_FOLDER="${PWD}/build"
+BUILD_FOLDER="${PROJECT_ROOT}/build"
 BUILD_TMP_FOLDER="${BUILD_FOLDER}/tmp"
+TARGET_FOLDER="${PROJECT_ROOT}/target"
 
 METADATA_FILE="${SRC_FOLDER}/metadata.json"
 EXTENSION_UUID=$(grep uuid "${METADATA_FILE}" | cut -d"\"" -f4)

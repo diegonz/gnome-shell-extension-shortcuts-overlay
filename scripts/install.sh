@@ -7,7 +7,9 @@ if [ "$UID" = "0" ]; then
   exit 101
 fi
 
-source ./env.sh
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+source "${SCRIPT_DIR}"/env.sh
 
 function compile_translations() {
   echo 'Compiling translations...'

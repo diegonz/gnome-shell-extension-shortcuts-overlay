@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2015",
+    "target": "ES2015",
     "strict": true,
-    "outDir": "./target",
+    "outDir": "./build",
     "forceConsistentCasingInFileNames": true,
     "downlevelIteration": true,
     "lib": [
@@ -14,9 +14,19 @@
     "removeComments": true,
     "incremental": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/gnome-typescript-types"
+    ],
+    // https://github.com/tsconfig/bases/blob/main/bases/recommended.json
+    "esModuleInterop": true,
+    "skipLibCheck": true,
   },
   "include": [
     "src/*.ts"
-  ]
+  ],
+  // https://github.com/tsconfig/bases/blob/main/bases/recommended.json
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended"
 }

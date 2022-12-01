@@ -3,55 +3,55 @@
     "name": "Window Navigation",
     "shortcuts": [
       {
-        "name": "Alt + Tab",
+        "keys": [["Alt", "Tab"]],
         "description": "Switches between windows"
       },
       {
-        "name": "Super",
+        "keys": [["Super"]],
         "description": "Enter overview"
       },
       {
-        "name": "Super + Left/Right",
+        "keys": [["Super", "Left/Right"]],
         "description": "Tile windows to the left or right"
       },
       {
-        "name": "Super + Up",
+        "keys": [["Super", "Up"]],
         "description": "Maximize window"
       },
       {
-        "name": "Alt + F4",
+        "keys": [["Alt", "F4"]],
         "description": "Close window"
       },
       {
-        "name": "Super + Mouse Drag",
+        "keys": [["Super", "Mouse Drag"]],
         "description": "Move window"
       },
       {
-        "name": "F11",
+        "keys": [["F11"]],
         "description": "Make full screen/restore"
       },
       {
-        "name": "Super + H",
+        "keys": [["Super", "H"]],
         "description": "Minimize window"
       },
       {
-        "name": "Super + Page Down",
+        "keys": [["Super", "Page Down"]],
         "description": "Switch to next workspace"
       },
       {
-        "name": "Super + Page Up",
+        "keys": [["Super", "Page Up"]],
         "description": "Switch to previous workspace"
       },
       {
-        "name": "Super + Home",
+        "keys": [["Super", "Home"]],
         "description": "Switch to first workspace"
       },
       {
-        "name": "Super + End",
+        "keys": [["Super", "End"]],
         "description": "Switch to last workspace"
       },
       {
-        "name": "Super + Tab",
+        "keys": [["Super", "Tab"]],
         "description": "Switch to next application"
       }
     ]
@@ -60,19 +60,19 @@
     "name": "Run and Close Applications",
     "shortcuts": [
       {
-        "name": "Alt + F2",
+        "keys": [["Alt", "F2"]],
         "description": "Run dialog"
       },
       {
-        "name": "Super + 1,2,3,...",
+        "keys": [["Super", "1,2,3,..."]],
         "description": "Run app by position in the launcher"
       },
       {
-        "name": "Super + T",
+        "keys": [["Super", "T"]],
         "description": "Open terminal"
       },
       {
-        "name": "Super + Q",
+        "keys": [["Super", "Q"]],
         "description": "Quit application"
       }
     ]
@@ -81,27 +81,27 @@
     "name": "System Shortcuts",
     "shortcuts": [
       {
-        "name": "Super + Space",
+        "keys": [["Super", "Space"]],
         "description": "Switch keyboard layout"
       },
       {
-        "name": "Ctrl + Alt + Del",
+        "keys": [["Ctrl", "Alt", "Del"]],
         "description": "Opens the shutdown menu"
       },
       {
-        "name": "Super + L",
+        "keys": [["Super", "L"]],
         "description": "Locks the screen"
       },
       {
-        "name": "Alt + F2, r",
+        "keys": [["Alt", "F2"], ["r"], ["Enter"]],
         "description": "Restart GNOME Shell"
       },
       {
-        "name": "Alt + Super + 8",
+        "keys": [["Alt", "Super", "8"]],
         "description": "Toggle zoom"
       },
       {
-        "name": "Alt + Super + S",
+        "keys": [["Alt", "Super",  "S"]],
         "description": "Toggle screen reader"
       }
     ]
@@ -110,23 +110,23 @@
     "name": "Application Shortcuts",
     "shortcuts": [
       {
-        "name": "Ctrl + W",
+        "keys": [["Ctrl", "W"]],
         "description": "Close tab in tab enabled apps"
       },
       {
-        "name": "Ctrl + T",
+        "keys": [["Ctrl", "T"]],
         "description": "Opens new tab in tab enabled apps"
       },
       {
-        "name": "Ctrl + Shift + T",
+        "keys": [["Ctrl", "Shift",  "T"]],
         "description": "Reopen last closed tab in web browser"
       },
       {
-        "name": "F5",
+        "keys": [["F5"]],
         "description": "Evince (document viewer) presentation mode)"
       },
       {
-        "name": "F9",
+        "keys": [["F9"]],
         "description": "LibreOffice presentation mode"
       }
     ]
@@ -135,19 +135,19 @@
     "name": "Screenshot Shortcuts",
     "shortcuts": [
       {
-        "name": "Alt + PrintScreen",
+        "keys": [["Alt", "PrintScreen"]],
         "description": "Take a screenshot"
       },
       {
-        "name": "Shift + PrintScreen",
+        "keys": [["Shift", "PrintScreen"]],
         "description": "Take a screenshot of a region"
       },
       {
-        "name": "Ctrl + PrintScreen",
+        "keys": [["Ctrl", "PrintScreen"]],
         "description": "Take a screenshot and paste in a clipboard"
       },
       {
-        "name": "Ctrl + Alt + Shift + R",
+        "keys": [["Ctrl", "Alt", "Shift", "R"]],
         "description": "Video capture desktop"
       }
     ]

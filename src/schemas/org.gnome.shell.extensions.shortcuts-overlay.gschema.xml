@@ -1,20 +1,30 @@
 <schemalist>
   <schema id="org.gnome.shell.extensions.shortcuts-overlay" path="/org/gnome/shell/extensions/shortcuts-overlay/">
     <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
+
     <key name="use-custom-file" type="b">
       <default>false</default>
       <summary>Use an alternative file for shortcut descriptions</summary>
       <description>If true the shortcut file specified as shortcuts-file will be used for custom shortcuts.</description>
     </key>
+
     <key name="shortcuts-file" type="s">
       <default>''</default>
       <summary>Alternative file for shortcut descriptions</summary>
       <description>If not empty it points to the shortcut file that will be read for the shortcut descriptions.</description>
     </key>
+
     <key name="inner-boxlayout-count" type="i">
       <default>2</default>
       <summary>Panel count</summary>
       <description>Defines the number of panels (columns) used to display the keyboard shortcuts in the overlay.</description>
     </key>
+
+    <key name="show-description-first" type="b">
+      <default>false</default>
+      <summary>Show shortcut description before key combination</summary>
+      <description>If true the shortcut description will be displayed before the key combination.</description>
+    </key>
+
   </schema>
 </schemalist>

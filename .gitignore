@@ -1,17 +1,12 @@
-# SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
-# SPDX-FileCopyrightText: 2020 Philip Chimento <philip.chimento@gmail.com>
+.idea
+.vscode
+.gitconfig
+
 /node_modules
-/tools/node_modules
-
-package-lock.json
-
-/build/
+/build
+/dist
 gschemas.compiled
 *~
 *.gmo
 *.mo
 *.zip
-src/.prettierrc
-
-.idea
-.gitconfig

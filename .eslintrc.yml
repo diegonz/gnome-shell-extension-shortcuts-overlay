@@ -3,9 +3,12 @@
 # SPDX-FileCopyrightText: 2018 Claudio André <claudioandre.br@gmail.com>
 env:
     es2021: true
-extends: 'eslint:recommended'
+extends:
+    - 'eslint:recommended'
+    - 'plugin:@typescript-eslint/recommended'
 plugins:
     - jsdoc
+    - '@typescript-eslint'
 rules:
     array-bracket-newline:
         - error
@@ -162,7 +165,8 @@ rules:
     no-return-assign: error
     no-return-await: error
     no-self-compare: error
-    no-shadow: error
+    no-shadow: off
+    '@typescript-eslint/no-shadow': error
     no-shadow-restricted-names: error
     no-spaced-func: error
     no-tabs: error
@@ -173,10 +177,8 @@ rules:
     no-unneeded-ternary: error
     no-unused-expressions: error
     no-unused-vars:
-        - error
-        # Vars use a suffix _ instead of a prefix because of file-scope private vars
-        - varsIgnorePattern: (^unused|_$)
-          argsIgnorePattern: ^(unused|_)
+        - off
+    '@typescript-eslint/no-unused-vars': warn
     no-useless-call: error
     no-useless-computed-key: error
     no-useless-concat: error
@@ -268,3 +270,5 @@ globals:
     clearInterval: readonly
 parserOptions:
     ecmaVersion: 2022
+    sourceType: module
+    parser: '@typescript-eslint/parser'

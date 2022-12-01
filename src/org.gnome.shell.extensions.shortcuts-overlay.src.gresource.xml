@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/shell/extensions/shortcuts-overlay">
+    <file>metadata.json</file>
+
+    <file>extension.js</file>
+    <file>daemon.js</file>
+    <file>overlay.js</file>
+    <file>fileReader.js</file>
+    <file>prefs.js</file>
+
+    <file>stylesheet.css</file>
+
+    <file>shortcuts.json</file>
+  </gresource>
+</gresources>

@@ -1,4 +1,4 @@
-# Shortcuts overlay: Show a pop-up overlay of useful keyboard shortcuts when Super + S is pressed.
+# Shortcuts overlay: Show an overlay of keyboard shortcuts.
 # Copyright (C) 2022 Diego González
 # This file is distributed under the same license as the shortcuts-overlay@diegonz.github.io package.
 # Diego González <diegonz@github.io>, 2022.
@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: shortcuts-overlay@diegonz.github.io  1\n"
+"Project-Id-Version: shortcuts-overlay@diegonz.github.io 1.0.0\n"
 "Report-Msgid-Bugs-To: diegonz@github.io\n"
-"POT-Creation-Date: 2022-11-17 16:45+0100\n"
-"PO-Revision-Date: 2022-11-17 16:45:12+0100\n"
+"POT-Creation-Date: 2022-12-01 23:25+0100\n"
+"PO-Revision-Date: 2022-12-01 23:25:52+0100\n"
 "Last-Translator: Diego González <diegonz@github.io>\n"
 "Language-Team: Diego González <diegonz@github.io>\n"
 "Language: en\n"
@@ -17,39 +17,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/preferences.ui:7
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/preferences.ui:11
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/prefs.js:45
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/fileReader.js:12
+msgid "Shortcuts file not found"
+msgstr ""
+
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/fileReader.js:18
+msgid "Unable to read file"
+msgstr ""
+
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/prefs.js:53
+msgid "Use custom Shortcuts File"
+msgstr ""
+
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/prefs.js:57
 msgid "Custom Shortcuts File"
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/preferences.ui:20
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/preferences.ui:26
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/prefs.js:48
-msgid "Select shortcut file"
-msgstr ""
-
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/prefs.js:55
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:16
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/prefs.js:61
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:19
 msgid "Panel count"
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:6
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/prefs.js:65
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:25
+msgid "Show shortcut description before key combination"
+msgstr ""
+
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:7
 msgid "Use an alternative file for shortcut descriptions"
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:7
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:8
 msgid "If true the shortcut file specified as shortcuts-file will be used for custom shortcuts."
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:11
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:13
 msgid "Alternative file for shortcut descriptions"
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:12
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:14
 msgid "If not empty it points to the shortcut file that will be read for the shortcut descriptions."
 msgstr ""
 
-#: /home/dgonzalez/Code/gnome-shell/gnome-shell-extension-shortcuts-overlay/src/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:17
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:20
 msgid "Defines the number of panels (columns) used to display the keyboard shortcuts in the overlay."
+msgstr ""
+
+#: /home/hal9k/Code/gnome/gnome-shell-extension-shortcuts-overlay/build/schemas/org.gnome.shell.extensions.shortcuts-overlay.gschema.xml:26
+msgid "If true the shortcut description will be displayed before the key combination."
 msgstr ""
